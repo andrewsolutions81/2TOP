@@ -1,16 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
+//useContext(votes)
+
+//lo llamo con useContext importo el contexto VotesCountContext
 
 
-
-
-
-function Candidates(e) {
-  e.preventDefault()
-  const imput = e.target.value
-
-  const handleClick1= (imput)=> {
-
-  }
+function Candidates() {
+  const handleClick1= (imput)=> {}
   return (
     <div>
       <button type="button" className="candidate-buton__1" onAuxClick={handleClick1}>candidate 1</button>
